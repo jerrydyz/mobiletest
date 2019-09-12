@@ -4,9 +4,10 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
-//全局引入axios 并配置全局api url
+//全局引入axios 
 import axios from 'axios'
 Vue.prototype.$axios = axios
+//并配置全局api url
 axios.defaults.baseURL = 'https://result.eolinker.com/9aiYBqY53d6bcbec92d79dc54f08156105ec982c6b8a0d0?uri=aaaaa'
 
 //手机端rem自适应方法
